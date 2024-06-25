@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://purl.org/dc/elements/1.1/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="creator">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Jen Judson"/>
+        <xs:enumeration value="Noah Robertson"/>
+        <xs:enumeration value="Courtney Albon"/>
+        <xs:enumeration value="Noah Robertson, Bryant Harris, Jen Judson"/>
+        <xs:enumeration value="Leo Shane III, Bryant Harris"/>
+        <xs:enumeration value="Bryant Harris"/>
+        <xs:enumeration value="Tara Copp"/>
+        <xs:enumeration value="Joseph O'Reilly"/>
+        <xs:enumeration value="Molly Weisner"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+</xs:schema>
